@@ -1,0 +1,57 @@
+# =========================================================================
+# 1. SYSTEM COMMANDS / UNIX / C COMPILER JUNK
+# =========================================================================
+# Ignore compiled binaries (executables with no extension on Linux/Mac)
+*.out
+*.o
+*.obj
+*.exe
+
+# System and execution logs
+*.log
+text_outputs/
+tmp/
+temp/
+
+# Environment and sensitive credential files (NEVER upload these!)
+.env
+.env.local
+*.pem
+*.key
+
+# =========================================================================
+# 2. JAVA & PDSA (Data Structures & Algorithms)
+# =========================================================================
+*.class
+*.jar
+*.war
+/target/
+/build/
+/.gradle/
+
+# =========================================================================
+# 3. MAD2 (Mobile Apps / Node / Android Studio / Flutter)
+# =========================================================================
+# Node dependencies (if using React Native/Ionic)
+node_modules/
+.npm/
+
+# Android/Gradle builds
+.gradle/
+/local.properties
+/captures
+.cxx/
+*.apk
+*.aab
+
+# =========================================================================
+# 4. EDITORS & OPERATING SYSTEMS
+# =========================================================================
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
